@@ -1,0 +1,203 @@
+﻿body {
+    text-align: center;
+
+}
+
+.yellow {
+    height: 25px;
+    width: 25px;
+    background-color: #0e0e0eb8;
+}
+
+#myForm{
+    font-weight:bold;
+    font-size:20px;
+}
+.blackPlayer{
+     height: 25px;
+    width: 25px;
+    background-color: #0e0e0eb8;
+}
+.black {
+    height: 25px;
+    width: 25px;
+    background-color: #0e0e0eb8;
+
+}
+    .black cheat {
+        overflow: hidden;
+        opacity: 0;
+        max-height: 0;
+        transition: max-height 300ms, opacity 200ms;
+    }
+.gray  {
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    background-image: url('img/cross-icon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.red {
+    height: 25px;
+    width: 25px;
+    background-color: red;
+}
+
+#ph1 {
+    float: left;
+    height: 100%;
+    width: 100%;
+    padding-left: 20px;
+ 
+}
+
+#ph {
+    float: left;
+    height: 100%;
+    width: 100%;
+
+}
+
+#start{
+    display: inline-block;
+    padding: 15px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #242cbf99;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 2px 20px 0px #200861;
+}
+#continue {
+    margin-left:10px;
+    display: inline-block;
+    padding: 15px 20px 15px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #242cbf99;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 2px 20px 0px #200861;
+}
+
+
+    #start:hover, #continue:hover {
+        background-color: #656abb99;
+    }
+
+td:hover {
+    cursor: url('img/icons8_hunt.ico') 16 16, all-scroll;
+  
+}
+    #start:active, #continue:active  {
+        background-color: #040ca0d4;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+.container {
+    width: 870px;
+    text-align: center;
+    margin: 20px auto 100px auto;
+    position: absolute;
+    top: 10px;
+    left:230px;
+  padding-bottom:50px;
+    z-index:1;
+}
+
+
+.game-container {
+    position: relative;
+    
+}
+
+#roster-sidebar, #stats-sidebarR, #stats-sidebarL, #restart-sidebar {
+    width: 150px;
+    padding: 20px;
+    margin: 0;
+    background-color: #EEEEEE;
+    position: absolute;
+    top: 4.5em;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#roster-sidebar, #restart-sidebar {
+    left: -200px;
+}
+
+#stats-sidebarR {
+   
+    left: -200px;
+}
+#stats-sidebarL {
+    right: -225px;
+}
+
+    #roster-sidebar h2, #stats-sidebar h2, #restart-sidebar h2 {
+        margin: 0 0 1em 0;
+        text-align: center;
+    }
+
+
+.grid-container {
+    width: 430px;
+    display: inline-block;
+  
+}
+
+
+.human-player .grid-cell:hover {
+    background-color: #99C2E1;
+}
+input[type=text] {
+    width: 20%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+}
+
+    input[type=text]:focus {
+        background-color: #251dd099;
+    }
+.cheat {
+    vertical-align: top;
+    background-color: #99C2E1;
+    margin: 1px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px
+}
+#myVideo {
+    position:fixed;
+    right: 0;
+    bottom: 0;
+
+}
+#cheat {
+    background-color: #d080efbf;
+    border: 1px solid #121515;
+    color: #141516;
+    padding: 5px 30px 5px 15px;
+    font-size: 16px;
+    background-image: url('img/icons8_detective_32.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    font-weight: bold;
+}
+    #cheat:hover {
+        background-color: #a01f9436;
+    }

@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="JavaScript.js"></script>
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body onload="loclS()">
+    <video autoplay muted loop id="myVideo">
+        <source src="img/f.mp4" type="video/mp4" />
+    </video>
+
+    <div class="container">
+        <form id="myForm">
+            width:<input type="text" id="textW" value="15" />
+            height:<input type="text" id="textH" value="15" />
+            <br />
+            <br />
+            <input id="start" type="button" value="Start Game" onclick="init()" />
+     
+        </form>
+        <div class="game-container">
+
+            <div id="stats-sidebarR">
+                <h2>Result</h2>
+                <p><strong>Games Won</strong></p>
+                <p id="stats-winsH">0</p>
+                <p><strong>Number of hits:</strong></p>
+                <span id="resH"></span>
+                <br />
+                <input id="cheat" type="button" value="Cheat" onclick="cheat()" />
+
+            </div>
+
+            <div class="grid-container">
+                <h2>
+                    Your Board
+                    <img src="img/icons8_administrator_male.ico" />
+                </h2>
+                <div class="grid human-player"><span id="ph"></span></div>
+            </div><div class="grid-container">
+                <h2>
+                    Computer Board
+                    <img src="img/icons8_computer_chat.ico" />
+                </h2>
+                <div class="grid computer-player"><span id="ph1"></span></div>
+            </div>
+
+            <div id="stats-sidebarL">
+                <h2>Result</h2>
+                <p><strong>Games Won</strong></p>
+                <p id="stats-winsC">0</p>
+                <p><strong>Number of hits:</strong></p>
+                <span id="resC"></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

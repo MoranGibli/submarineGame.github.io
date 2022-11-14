@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HW8-js", ".", "{FE2119B0-ECB1-4824-8415-141CDF5A8420}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_63157"
+		Debug.AspNetCompiler.PhysicalPath = "..\HW8-js\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63157\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_63157"
+		Release.AspNetCompiler.PhysicalPath = "..\HW8-js\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63157\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63157"
+		SlnRelativePath = "..\HW8-js\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE2119B0-ECB1-4824-8415-141CDF5A8420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE2119B0-ECB1-4824-8415-141CDF5A8420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73D6AB22-60CA-48E4-8E28-36EA56A5B7FF}
+	EndGlobalSection
+EndGlobal
